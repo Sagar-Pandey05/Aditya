@@ -48,3 +48,15 @@ Ex - <br> (break a line), <hr> (horizontal Rule), etc.
 Anchor Tag:
 It is denoted by <a>...</a>. It helps in inserting links to the webpage.
 If you want to open the link in new tab then you have to use target attribute, the value of taarget is _blank that helps in opening the link separately.
+
+................................................................................................................
+#Semantic Tags in HTML
+Semantics tags are optional tags, but it is good practice to use these semantic tags in your webpage. These tags helps in defining stucture in optimised ways. Here are the semantic tags in HTML.
+
+1. <header>....</header> -- top  of the website
+2. <section>...</section> -- a part which contains images, audios, videos, texts etc.
+3. <article>...</article> -- it is a part of website which mainly contains text only.
+4. <footer>...</footer> -- bottom part of the website
+5. <nav>...</nav> -- It generally contains navbar of website
+
+.................................................................................................................
