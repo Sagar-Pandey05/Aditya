@@ -1,62 +1,183 @@
-HTML - HyperText Markup Language
+# 🌐 HTML Notes (Super Easy for Beginners)
 
-Hypertext - Text, images, audio, video, and etc
-Markup - Structure (By using Tags)
-Language - It is a way to create a website.
+## 📌 What is HTML?
 
-#Boiler-Plate Code
-<!DOCTYPE html> -- It tolds like you're working with HTML5 Version.
-<head>...</head> -- important data is declared, webpage title, link css file, or use meta tags
+HTML stands for **HyperText Markup Language**.
 
-<title>...</title> -- It is used to give the title to webpage.
-<body>...</body> -- In which we are writing the main code.
-<html>...</html> -- This is the main tag which tells like we are working with html.
+Let’s understand it in a very simple way:
 
-E.g:--
+* **HyperText** → Text + Images + Videos + Links
+* **Markup** → Structure (using tags)
+* **Language** → Used to create websites
+
+👉 So, HTML is used to **build the structure of a website**.
+
+---
+
+## 🧱 Basic Structure of HTML (Boilerplate Code)
+
+This is the basic code every HTML page needs:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aditya Classes</title>
+    <title>My Website</title>
 </head>
 <body>
     <h1>Hello World</h1>
 </body>
 </html>
+```
 
-----------------------------------------------------------------------------------------------
-Headings in HTML
-There are 6 headings inside the HTML. You can write these headings as <h1>.............<h6>
-...............................................................................................
-Paragraph Tag in HTML
-This is represent by <p>...</p>. And used for writing paragraphs.
-.................................................................................................
-Tags in HTML
-Tags helps the developer to provide the structure to the webpage. It is always enclose in Angular brackets (<>).
+### 🔍 What does each tag do?
 
-Types of Tags
-There are two types of tags
-1. Container Tag - The tags which requires both opening tag and closing tags are called container tags.
+* `<!DOCTYPE html>` → Tells browser we are using **HTML5**
+* `<html>` → Main root of the website
+* `<head>` → Contains important info (title, meta, CSS)
+* `<title>` → Name shown on browser tab
+* `<body>` → Visible content of website
 
-Ex - <p>..</p>, heading tags, etc.
+---
 
-2. Empty Tag - It requires only the opening tag. It doesn't requires a closing tag.
-Ex - <br> (break a line), <hr> (horizontal Rule), etc. 
-----------------------------------------------------------------------------------------------------------------
+## 🔠 Headings in HTML
 
-Anchor Tag:
-It is denoted by <a>...</a>. It helps in inserting links to the webpage.
-If you want to open the link in new tab then you have to use target attribute, the value of taarget is _blank that helps in opening the link separately.
+There are **6 types of headings**:
 
-................................................................................................................
-#Semantic Tags in HTML
-Semantics tags are optional tags, but it is good practice to use these semantic tags in your webpage. These tags helps in defining stucture in optimised ways. Here are the semantic tags in HTML.
+```html
+<h1>Biggest Heading</h1>
+<h2>...</h2>
+<h3>...</h3>
+<h4>...</h4>
+<h5>...</h5>
+<h6>Smallest Heading</h6>
+```
 
-1. <header>....</header> -- top  of the website
-2. <section>...</section> -- a part which contains images, audios, videos, texts etc.
-3. <article>...</article> -- it is a part of website which mainly contains text only.
-4. <footer>...</footer> -- bottom part of the website
-5. <nav>...</nav> -- It generally contains navbar of website
+👉 Use `<h1>` for main title and others for smaller titles.
 
-.................................................................................................................
+---
+
+## 📄 Paragraph Tag
+
+Used to write text:
+
+```html
+<p>This is a paragraph</p>
+```
+
+---
+
+## 🏷️ What are Tags?
+
+Tags are used to **create structure** in HTML.
+
+Example:
+
+```html
+<p>Hello</p>
+```
+
+### Types of Tags
+
+### 1️⃣ Container Tags
+
+* Have opening **and** closing tags
+* Example:
+
+```html
+<p>Hello</p>
+<h1>Title</h1>
+```
+
+### 2️⃣ Empty Tags
+
+* Only opening tag
+* No closing tag needed
+
+Examples:
+
+```html
+<br>   <!-- Line break -->
+<hr>   <!-- Horizontal line -->
+```
+
+---
+
+## 🔗 Anchor Tag (Links)
+
+Used to add links:
+
+```html
+<a href="https://google.com">Go to Google</a>
+```
+
+👉 Open link in new tab:
+
+```html
+<a href="https://google.com" target="_blank">Open Google</a>
+```
+
+---
+
+## 🧠 Semantic Tags (Better Structure)
+
+These make your website **clean and easy to understand**.
+
+```html
+<header>Top part</header>
+<nav>Menu / Navbar</nav>
+<section>Content section</section>
+<article>Text content</article>
+<footer>Bottom part</footer>
+```
+
+👉 They help developers and search engines understand your website.
+
+---
+
+## 📋 Lists in HTML
+
+Lists are used to show items.
+
+### 🔹 1. Unordered List (Bullets)
+
+```html
+<ul>
+  <li>Sugar</li>
+  <li>Rice</li>
+  <li>Tea</li>
+</ul>
+```
+
+### 🔹 2. Ordered List (Numbers/Letters)
+
+```html
+<ol>
+  <li>Sugar</li>
+  <li>Rice</li>
+  <li>Tea</li>
+</ol>
+```
+
+👉 Output:
+
+1. Sugar
+2. Rice
+3. Tea
+
+---
+
+## 🧾 List Item Tag
+
+Used inside lists:
+
+```html
+<li>Item Name</li>
+```
+
+
+---
+
+
