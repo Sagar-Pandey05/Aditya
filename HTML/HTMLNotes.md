@@ -179,4 +179,14 @@ Used inside lists:
 
 
 ---
+## 🧾 Tables
+Tables are the combination of rows and columns.
 
+1. <table>...</table>
+2. <tr>....</tr> (Table Row)
+3. <th>...</th> (Table Header)
+4. <td>...</td> (Table Data)
+5. <thead>...</thead>
+6. <tbody>...</tbody>
+7. <tfoot>...</tfoot>
+8. <caption>...</caption> (Title or description of table)
