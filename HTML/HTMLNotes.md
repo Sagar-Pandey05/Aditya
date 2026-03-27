@@ -190,3 +190,19 @@ Tables are the combination of rows and columns.
 6. <tbody>...</tbody>
 7. <tfoot>...</tfoot>
 8. <caption>...</caption> (Title or description of table)
+
+## 🧾 Forms in HTML
+Forms in html are created in order to get some data or information from the user. Here are some important tags.
+
+1. <form>...</form>
+2. <label>...</label>
+3. <input> --- type ("text", "password", "number", "dob", "email", ....)
+
+## Inline and Block Elements
+Element means Opening Tag + Content + Closing Tag
+Ex - <p>Hello</p>
+
+### Inline Elements
+These are the elements that comes in a single line.
+### Block Elements
+These elements block the whole line which results whenever you use another element it comes in a new line.
