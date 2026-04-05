@@ -1,0 +1,15 @@
+#CSS - Cascading Style Sheet
+It is defined as the styling language that is used to style our web page. The CSS is also popularly used for responsiveness (Website or application looks similar to all device.).
+
+#types of CSS / Ways to apply CSS!!
+There are basically three types of CSS:
+
+1. Inline CSS
+2. External CSS
+3. Internal CSS
+
+ -> Inline CSS : This is written inside the line using style attribute.
+ -> Internal CSS: You're using CSS inside html but with the help of <style>...</style> Tag.
+ -> External CSS: It is used externally by creating a file with extension .css
+
+#SELECTORS inside CSS
