@@ -13,3 +13,12 @@ There are basically three types of CSS:
  -> External CSS: It is used externally by creating a file with extension .css
 
 #SELECTORS inside CSS
+Selectors are used to select something....(that is tags). Here are the following types:
+
+1. Basic Selectors:
+Ex -- h1{
+        background-color: red;
+    }
+
+2. Id Selectors
+3. Class Selectors
