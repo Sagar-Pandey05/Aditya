@@ -22,3 +22,26 @@ Ex -- h1{
 
 2. Id Selectors
 3. Class Selectors
+4. Universal Selectors (*)
+
+#Units in CSS
+These are used to measure or set the size of the elements. like images, texts, and etc.
+
+Example -- px(pixels), %(percentage), vh(view height), vw(view width), em, rem
+
+colors in CSS
+-> Hex Values = #000000, #ffffff, ...
+-> RGB = rgb(0,0,0)
+-> Normal Ways => purple, black, white...
+
+
+Text and font properties -
+
+->Positions in CSS
+The position property in css allows you to move the objects / elements in the webpage. We have 5 possible values.
+
+1. static - Is at rest.
+2. relative - element relative to <body>. top, bottom, left, right.
+3. absolute
+4. Sticky
+5. fixed
