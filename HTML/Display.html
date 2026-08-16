@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+
+<style>
+
+    .container {
+        height: 200px;
+        width: 400px;
+        background-color: black;
+        display: flex;
+        /* it will put the items along y-axis */
+        align-items: center; 
+        /* it will put the items along x-axis */
+        justify-content: center;
+        /* flex-direction: column-reverse; */
+
+    }
+
+    .childOne{
+        height: 50px;
+        width: 50px;
+        background-color: yellow;
+    }
+
+    .childTwo{
+        height: 50px;
+        width: 50px;
+        background-color: green;
+    }
+
+    .childThree{
+        height: 50px;
+        width: 50px;
+        background-color: blue;
+    }
+
+    .childFour{
+        height: 50px;
+        width: 50px;
+        background-color: red;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="childOne">A</div>
+        <div class="childTwo">B</div>
+        <div class="childThree">C</div>
+        <div class="childFour">D</div>
+    </div>
+    <h1>Hello</h1>
+</body>
+</html>

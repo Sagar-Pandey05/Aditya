@@ -45,3 +45,7 @@ The position property in css allows you to move the objects / elements in the we
 3. absolute
 4. Sticky
 5. fixed
+
+-> Display Property in CSS
+it basically defines the appearance of the elements on the screen.
+
