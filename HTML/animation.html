@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in CSS</title>
+</head>
+<style>
+    /* @keyframes chacha{
+        from {background-color: red;}
+        to {background-color: yellow;}
+    } */
+
+    @keyframes chacha{
+        0% {background-color: red; left: 0px; top: 0px; }
+        25% {background-color: yellow; scale: 2.5}
+        50% {background-color: blue;}
+        100% {background-color: black; left: 1000px; top:1000px; transform: rotate(360deg);}
+    }
+
+    #ani{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        position: relative;
+        animation-name: chacha;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+</style>
+
+<body>
+    <div id="ani">Fortuner Car</div>
+</body>
+</html>
